@@ -6,6 +6,6 @@ const reverse = (n) => {
           } else {
             out = str;
           }
-return out.split('').reverse().join('');
+return out.reverse();
 };
 
